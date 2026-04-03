@@ -1,0 +1,6 @@
+@AdonetDisconnectedorientedexampleWith3databases_HostAddress = http://localhost:5206
+
+GET {{AdonetDisconnectedorientedexampleWith3databases_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
