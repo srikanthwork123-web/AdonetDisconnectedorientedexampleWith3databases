@@ -9,6 +9,7 @@ namespace AdonetDisconnectedorientedexampleWith3databases.Controllers
     [ApiController]
     public class DepartmentController : ControllerBase
     {
+//In deparment controller only write the code deparment related code and in order to write the department related code we need to call the department service methods in the controller class and to call the department service methods we need to inject the department service interface in the constructor of the controller class and assign it to the private readonly field of the service interface type. This way we can use the department service methods in the controller class to perform the CRUD operations on the database.
         //inject the depencies into the controller class using constructor injection and assign it to the private readonly field of the service interface type.    
         private readonly IDepartmentService _departmentService;
         //we need to inject the depedencies into constructor.

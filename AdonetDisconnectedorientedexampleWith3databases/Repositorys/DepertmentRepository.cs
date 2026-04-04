@@ -8,6 +8,9 @@ namespace AdonetDisconnectedorientedexampleWith3databases.Repositorys
 {
     public class DepertmentRepository : IDepartmentRepository
     {
+//Don't write the connectionString like this way.
+//we called this below proces is harcoded connection string. It is not a good practice to write the connection string in this way because if we want to change the connection string then we need to change the code and then we need to recompile the code and then we need to deploy the code again. So, it is not a good practice to write the connection string in this way.
+//all connections we need to mention in the appsettings.json file only
         string connectionString = "data source=DESKTOP-13B42NJ;integrated security=yes;Encrypt=True;TrustServerCertificate=True;initial catalog=Northwind_DB";
         public async Task<bool> AddDepartment(Department Dept)
         {
