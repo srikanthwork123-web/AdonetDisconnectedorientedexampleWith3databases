@@ -19,5 +19,13 @@
         public static  string GetOrder = "Usp_GetOrder";
         public static  string GetOrderByOrderId = "Usp_GetOrderById";
         #endregion
+
+        #region Employee storedprocedures
+        public static  string AddEmployee = "Usp_AddEmployeeReturn";
+        public static  string UpdateEmployee = "Usp_UpdateEmployee";
+        public static  string DeleteEmployee = "Usp_DeleteEmployee";
+        public static  string GetEmployee = "Usp_GetEmployee";
+        public static  string GetEmployeeByEmpid = "Usp_GetEmployeeId";
+        #endregion
     }
 }
